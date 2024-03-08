@@ -1,0 +1,132 @@
+/*o asterisco (*) é um seletor universal para alterar toda a página*/
+* {
+    margin: 0; /*Altera o espaçamento externo*/
+    padding: 0; /*Altera o espaçamento interno*/
+    }
+
+    /*INICIO CABEÇALHO*/
+.cabecalho {
+    background-color:  #f9dede; /*cor de fundo*/
+    color: #000000; /*cor*/
+    display: flex; /*utilizaremos a propriedade flex para organizar os itens do cabeçalho, lado a lado*/
+    justify-content: space-around; /*alinha as imagens e os textos com espaçamentos entre eles(estamos usando entre os itens no cabeçalho)*/
+    padding: 24px 0; /*Altera o espaçamento interno*/
+}
+
+.cabecalho-imagem {
+    width: 180px; /*largura*/
+    border-radius: 30px; /*para definir bordas arredondadas da imagem*/
+}
+
+.cabecalho-titulo {
+    padding: 30px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+    segundo valor bordas horizontais(esquerda e direita)*/
+    font-size: 44px; /*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+}
+
+.cabecalho-lista-item {
+    display: inline-block; /*o valor inline-block na propriedade display, os itens da lista ficam lado a lado*/
+    padding: 0 24px; /*Altera o espaçamento interno*/
+    margin-top: 40px; /*define as dimensões da margem superior*/
+    font-size: 20px; /*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+}
+
+.cabecalho-lista-item a {
+    text-decoration: none;
+    color: #000000; /*cor*/
+}
+ /*INICIO SEÇÃO ESCOLA*/
+
+ #escola{
+    background-image: linear-gradient(#F9DEDE,#fcf9f9); /*define um gradiente linear como a imagem de fundo, 
+    deve definir pelo menos duas paradas de cor */
+    color: #000000; /*cor*/
+    display: flex; /*organizar a estrutura do nosso conteúdo*/
+    justify-content: center; /*alinha imagem e os textos com espaçamentos entre eles*/
+    padding: 24px 0; /*Altera o espaçamento interno*/
+}
+
+.escola-div-conteudo{
+    width: 50%; /*largura*/
+}
+
+.escola-titulo{
+    padding: 24px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+    segundo valor bordas horizontais(esquerda e direita)*/
+    font-size: 25px;/*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+}
+
+.escola-texto{
+    font-size: 20px;/*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+}
+
+.imagem-escola{
+     width: 30%; /*largura*/
+     height: 300px;/*altura*/
+     border-radius: 82px; /*para definir bordas arredondadas da imagem*/   
+}
+
+/*INICIO SEÇÃO ESTUDANTE*/
+#estudante{
+    background-color: #fcf9f9; /*cor de fundo*/
+    color: #000000; /*cor*/
+}
+.estudante-titulo{
+    padding: 24px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+    segundo valor bordas horizontais(esquerda e direita)*/
+    margin: 0 120px; /* alinhar o espaçamento */
+    font-size: 25px;/*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+}
+
+p{
+    padding: 0 120px; /* alinhar o espaçamento */
+    font-size: 20px;/*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+ }
+
+ .estudantes-todos{
+    display: grid; /* especificar o espaçamento do grid(organizar por colunas) */
+    grid-template-columns: 25% 25% 25% 25%; 
+    padding: 0 60px; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+    segundo valor bordas horizontais(esquerda e direita)*/
+}
+
+.estudante-div{
+    text-align: center;/*texto centralizado*/  
+    padding: 12px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+    segundo valor bordas horizontais(esquerda e direita)*/
+}
+
+.estudante-imagem{
+    width: 120px;  /*largura*/
+}
+
+.estudante-nome{
+    font-size: 14px;/*tamanho da fonte*/    
+}
+
+.estudante-icone{
+    width: 24px;  /*largura*/
+    padding: 4px 8px;/*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+    segundo valor bordas horizontais(esquerda e direita)*/
+}
+
+/*INICIO SEÇÃO RODAPÉ*/
+.rodape{
+    background-image: linear-gradient(#fcf9f9,#F9DEDE);/*cor de fundo gradiente*/
+}
+
+.copyright{
+        text-align: center;/*texto centralizado*/ 
+        height: 100px;/*altura*/
+        line-height: 100px;   /*altura da linha*/     
+        font-size: 12px;/*tamanho da fonte*/ 
+}
+
+
+ 
